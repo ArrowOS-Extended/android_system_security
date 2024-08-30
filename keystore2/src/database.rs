@@ -355,7 +355,7 @@ const CERTIFICATE_3: &[u8] = &[
     0x65, 0xe9, 0x85, 0x42
 ];
 
-use bssl_sys::*;
+use bssl_ffi::*;
 use std::ptr;
 
 // Common extension bytes on unlocked bootloader devices
