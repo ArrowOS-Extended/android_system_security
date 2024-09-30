@@ -58,6 +58,9 @@ rust_defaults {
         "libserde_cbor",
         "libthiserror",
         "libbssl_ffi",
+        "libx509_parser",
+        "liboid_registry",
+        "libkeybox_parser",
     ],
     shared_libs: [
         "libcutils",
